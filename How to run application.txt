@@ -1,0 +1,37 @@
+
+Application Structure
+
+Client side – Angular
+Server side – java
+Database – MySQL
+Required Software’s
+Node JS
+MySQL
+Visual Studio Code 
+Jenkins
+
+Client side – Angular
+Angular CLI for building the UI and connects with REST endpoints exposed from server side 
+
+Start Application
+npm install
+npm start - To start the application
+npm test - To test the test cases
+http://localhost:8090/ this url in browser to view the client side application, the changes will be automatically reflect when we save the changes
+
+npm install
+node app.js - To start the application
+ng serve
+application willl start at port no 4200.
+
+Jenkins
+Make sure Jenkins installed and running
+Create Jenkins project and configure the below informations
+Github repository with credentials
+Branch to build: */master
+Tomcat needs to be started at 8090
+Then give build from jenkins project
+
+
+ 
+
